@@ -1,0 +1,23 @@
+This simulation code package is mainly used to reproduce the results of the following paper [1]:
+
+[1] G. Zhou, C. Pan, H. Ren, K. Wang and Z. Peng, "Secure Wireless Communication in RIS-Aided MISO 
+System With Hardware Impairments," in IEEE Wireless Communications Letters, vol. 10, no. 6, pp. 1309-1313, June 2021.
+
+*********************************************************************************************************************************
+If you use this simulation code package in any way, please cite the original paper [1] above. 
+ 
+The author in charge of this simulation code pacakge is: Gui Zhou (email: g.zhou@qmul.ac.uk).
+
+Please note that the MATLAB R2020a is used for this simulation code package,  and there may be some imcompatibility problems among different MATLAB versions. 
+
+*********************************************************************************************************************************
+Abstract of the paper: 
+
+In practice, residual transceiver hardware impairments inevitably lead to distortion noise which causes the performance loss. In this letter, we study the robust transmission design for a reconfigurable intelligent surface (RIS)-aided secure communication system in the presence of transceiver hardware impairments. We aim for maximizing the secrecy rate while ensuring the transmit power constraint on the active beamforming at the base station and the unit-modulus constraint on the passive beamforming at the RIS. To address this problem, we adopt the alternate optimization method to iteratively optimize one set of variables while keeping the other set fixed. Specifically, the successive convex approximation (SCA) method is used to solve the active beamforming optimization subproblem, while the passive beamforming is obtained by using the semidefinite program (SDP) method. Numerical results illustrate that the proposed transmission design scheme is more robust to the hardware impairments than the conventional non-robust scheme that ignores the impact of the hardware impairments.
+*********************************************************************************************************************************
+How to use this simulation code package?
+
+This code package is the curve of "RIS-robust" with miu_t=0.01 and miu_r=0.01 in Fig. 2 in the paper. Other curves can be obtained by changing the values of parameters or removing RIS or doing nonrobust.
+
+*********************************************************************************************************************************
+Enjoy the reproducible research!
